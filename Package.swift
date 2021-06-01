@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
            name: "SwiftASTConstructor",
            url: "https://github.com/App-Maker-Software/SwiftAST/releases/download/0.50400.0/SwiftAST.xcframework.zip",
-           checksum: "c5381ff0772f570606080924ca821a99aaecdbfc1f603431a603d1a878dea0a4"
+           checksum: "edb12d52c36ea03dcef18cc5bf92d1dc2f5df23551b164ccd688f7df4011219c"
        )
     ]
 )
