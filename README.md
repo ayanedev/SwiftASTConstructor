@@ -28,7 +28,7 @@ let package = Package(
   ]
 )
 ```
-Replace `<#Specify Release tag#>` by the version of SwiftSyntax that you want to use (see the following table for mapping details).
+Replace `<#Specify Release tag#>` by the version of SwiftAST that you want to use (see the following table for mapping details).
 
 
 | Xcode Release | Swift Release Tag | SwiftAST Release Tag  |
