@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
            name: "SwiftASTConstructor",
-           url: "https://github.com/App-Maker-Software/SwiftAST/releases/download/0.50400.0/SwiftAST.xcframework.zip",
+           url: "https://github.com/App-Maker-Software/SwiftAST/releases/download/0.50400.0/SwiftASTConstructor.xcframework.zip",
            checksum: "edb12d52c36ea03dcef18cc5bf92d1dc2f5df23551b164ccd688f7df4011219c"
        )
     ]
