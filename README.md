@@ -1,6 +1,6 @@
 # Swift AST
 
-A small data medium for transfer Swift ASTs. Primarily used in conjunction with [SwiftInterpreter](http://github.com/App-Maker-Software/SwiftInterpreter).
+A small data medium for transferring Swift ASTs. Primarily used in conjunction with [SwiftInterpreter](http://github.com/App-Maker-Software/SwiftInterpreter).
 
 Internally, this library uses [SwiftSyntax](https://github.com/apple/swift-syntax) in conjuction with Swift compiler's [libSyntax library](https://github.com/apple/swift/tree/main/lib/Syntax). While SwiftSyntax is statically included in the prebuilt binary, libSyntax is not and must be linked yourself. For most, building on a Mac with Xcode installed will work, but many times (usually between Swift version updates) the expected libSyntax version will differ from what's installed on the system. Follow instructions on the SwiftSyntax repo for information for how to get a specific `lib_InternalSwiftSyntaxParser.dylib` needed for linking.
 
