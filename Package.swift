@@ -15,6 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
+//        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50400.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -22,7 +23,7 @@ let package = Package(
         .binaryTarget(
            name: "SwiftASTConstructor",
            url: "https://github.com/App-Maker-Software/SwiftAST/releases/download/0.50400.0/SwiftASTConstructor.xcframework.zip",
-           checksum: "edb12d52c36ea03dcef18cc5bf92d1dc2f5df23551b164ccd688f7df4011219c"
+           checksum: "0df93927d7b62a839d61803438c6fa4f4d0ce94b8639b1e0785e4c75c76abd39"
        )
     ]
 )
